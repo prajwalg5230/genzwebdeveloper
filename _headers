@@ -1,0 +1,27 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
+  Access-Control-Allow-Headers: *
+
+/models/*.glb
+  Content-Type: model/gltf-binary
+  Cache-Control: public, max-age=31536000, immutable
+
+/models/m/*.glb
+  Content-Type: model/gltf-binary
+  Cache-Control: public, max-age=31536000, immutable
+
+/city/*.bin
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=31536000, immutable
+
+/textures/clouds/*.bin
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.mp4
+  Content-Type: video/mp4
+  Accept-Ranges: bytes
